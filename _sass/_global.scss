@@ -66,9 +66,10 @@ header {
 img.full-width {
     width: 100%;
 }
-h1 {
+body h1 {
     border-bottom: 1px solid;
-    margin-bottom: 1em;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
     color: #000000;
     margin-top: 67px;
 }

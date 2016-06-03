@@ -4,6 +4,11 @@ title:  "Claiming GST"
 ---
 
 <h1>When you can claim a GST credit</h1>
+
+<div class="page-info">
+    <p>Page Information: <span class="tax-literacy">Tax Literacy<span class="tag">Low</span></span></p>
+</div>
+
 <p>You must be registered for GST to claim GST credits. You can claim a credit for any GST included in the price you pay for things that you use in your business. This is called a GST credit (or input-tax credit, a credit for the tax included in the price of your business inputs). You claim GST credits in your business activity statement. A four-year time limit applies.</p>
 
 <h2>When you need a tax invoice</h2>
