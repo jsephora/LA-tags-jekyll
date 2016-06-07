@@ -3,7 +3,6 @@ layout: bas
 title:  "Business activity statement essentials"
 ---
 
-<h1>Business activity statements (BAS)</h1>
 <p>The business activity statement (BAS) is a tax reporting requirement for businesses issued by us on either a monthly or quarterly basis. It’s used for reporting and paying goods and services tax (GST), pay as you go (PAYG) instalments, PAYG withholding tax and other tax obligations.</p>
 <p>When you register for an Australian business number (ABN) and GST, we will automatically send you a BAS when it is time to lodge.</p>
 <p>All businesses registered for GST are required to lodge a BAS by the due date.  </p>

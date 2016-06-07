@@ -3,7 +3,6 @@ layout: bas
 title:  "Preparing your Business activity statement (BAS)"
 ---
 
- <h1>Preparing your Business activity statement (BAS)</h1>
 <p>Find out how to complete the business activity statement (BAS) labels for:</p>
 <ul>
 <li>Goods and services tax (GST)</li>

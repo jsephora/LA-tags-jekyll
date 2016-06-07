@@ -3,18 +3,20 @@
 
   {% include head.html %}
 
+
   <body id="test-start">
-      <!--<div class="overlay"></div>
+      <div class="overlay"></div>
       <div class="test-instructions">
           <p class="intro">Please read the instructions in the pink area above.</p>
           <p>When you are finished the task click on <strong>'Task Complete'</strong>.</p>
           <p>If you are unable to complete the task click on <strong>'Abandon Task'</strong>.</p>
           <p>Click on <strong>'Start the test'</strong> to begin.</p>
           <p class="close-btn">Start the test</p>
-      </div>-->
+      </div>
       <div class="container">
 
     {% include header.html %}
+          
 
   <div class="sidebar">
             <img src="images/ato_sidebar_gst.png" alt="sidebar content from ATO.gov.au"/>
@@ -24,6 +26,9 @@
         
             
         <div class="body-text">
+        <h1>{{ page.title }}</h1>
+            
+        {% include tag.html %}
             
         {{ content }}
          

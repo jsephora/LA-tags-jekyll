@@ -3,8 +3,7 @@ layout: legal
 title:  "Goods or services that do not include GST"
 ---
 
-<h1>Goods and Services Tax Ruling</h1>
- <h2>GSTR 2013/1</h2>
+<h2>GSTR 2013/1</h2>
 <h3>Goods and services tax: tax invoices
 </h3>
 

@@ -3,7 +3,6 @@ layout: bas
 title:  "BAS agent lodgment program 2015–16"
 ---
 
-<h1>BAS agent lodgment program 2015–16</h1>
 <h2>About the BAS agent lodgment program 2015–16</h2>
 <p>The <em>Lodgment program 2015–16</em> includes the following lodgment concessions for registered BAS agents:</p>
 <ul>

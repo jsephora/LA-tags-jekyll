@@ -3,7 +3,6 @@ layout: bas
 title:  "Making adjustments on your activity statements"
 ---
 
-<h1>Making adjustments on your activity statements</h1>
 
 <p>On your current activity statement, you may have to make changes that increase or decrease how much GST you must pay for a reporting period. These changes are known as 'adjustments'.</p>
 <p>There are two types of adjustments:</p>

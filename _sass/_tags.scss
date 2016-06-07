@@ -1,0 +1,110 @@
+.page-info {
+    margin: 0 0 2em 0;
+    padding: 10px 0;
+    height: 45px;
+    
+    p {
+        margin-bottom: 0;
+        font-size: 16px;
+        float: left;
+        color: $grey-mid;
+    }
+    .tag {
+        background: lighten($teal-mid, 3%);
+        padding: 5px 10px;
+        margin: 0 0 0 0;
+        border-radius: 4px;
+        font-family: "swiss721bt", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        color: #fff;
+    }
+    .explanation {
+        display: inline-block;
+        float: left;
+        margin: 0 15px 0 5px;
+        padding: 0;
+        
+        img {
+            padding: 0;
+            margin: 0 0 0 0;
+        }
+    }
+    .dropdown-intro {
+        margin: 0 0 0 10px;   
+    }
+    .dropdown-toggle {
+        width: 24px;
+        height: 24px;
+        margin: 0 0 0 10px;
+        display: block;
+        float:left;
+        background: url(../images/arrow_down_whiteback.png) no-repeat;
+        background-size: 24px;
+        
+        & .open {
+            background: url(../images/arrow_up_whiteback.png) no-repeat;
+            background-size: 24px;
+        }
+    }
+    .open {
+        .dropdown-toggle {
+            background: url(../images/arrow_up_whiteback.png) no-repeat;
+            background-size: 24px;
+        }
+    }
+    .dropdown-menu {
+        width: 100%; 
+        padding: 12px 20px 30px;
+        top: 33px;
+        background: lighten($grey-lightest, 15%);
+        background: rgb(245, 245, 245);
+        border: none;
+        box-shadow: 0 0 0;
+        border-bottom: 5px solid $teal-mid;
+        border-radius: 0;
+        
+        p {
+            width: 100%;
+            padding: 0 0 12px 0;
+            border-bottom: 1px solid $grey-light;
+        }   
+        .literacy-links {
+            width: 100%;
+            padding: 17px 0 0 0;
+            display: block;
+            float: left;
+            
+            li {
+                list-style-type: none;
+                padding: 5px 5px 5px 0;
+                
+                &.tag {
+                    width: auto;
+                    display: inline-block;
+                    padding: 3px 10px;
+                    margin: 0 0 8px 2px;
+                    font-weight: normal;
+                    letter-spacing: 0.05em;
+                }
+            }
+            a {
+                text-decoration: none;
+                color: $grey-mid;
+                font-weight: normal;
+                background: url(../images/arrow_left_greyback.png) no-repeat;
+                background-size: 15px;
+                padding-left: 15px;
+                font-size: 16px;
+                
+                &:focus, &:hover, &:active {
+                    text-decoration: underline;
+                }
+            }
+            
+            @media(min-width: 500px) {
+                width: 33.3%;
+            }
+        }
+    }
+}

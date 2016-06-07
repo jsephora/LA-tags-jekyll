@@ -3,7 +3,6 @@ layout: bas
 title:  "Lodging and paying your BAS"
 ---
 
-<h1>Lodging and paying your BAS</h1>
 <p>Follow the links below to find out how to complete, lodge and pay your business activity statement (BAS).</p>
 <ul>
 <li>How to lodge your BAS</li>

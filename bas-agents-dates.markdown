@@ -3,7 +3,6 @@ layout: bas
 title:  "Due dates"
 ---
 
-<h1>Due dates</h1>
 <p>Key lodgment and payment dates for 2015–16:</p>
 
 <h2 id="may2016">May 2016</h2>

@@ -3,7 +3,6 @@ layout: invoice
 title:  "Goods or services that do not include GST"
 ---
 
-<h1>Goods or services that do not include GST</h1>
 <h2>Sample Invoice</h2>
 <p><img class="full-width" src="images/48360-6.gif" alt="Invoice for goods or services that do not include GST." title="Invoice for goods or services that do not include GST."></p>
 <p>These invoices should include sufficient information to ascertain:</p>

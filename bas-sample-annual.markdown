@@ -3,7 +3,6 @@ layout: bas
 title:  "BAS P - Annual GST return"
 ---
 
-<h1>BAS P - Annual GST return</h1>
 <p>You can download a sample of this form in Portable Document
 Format (PDF) - download <u>BAS P - Annual GST return</u>
 (NAT 4646). Sample forms are provided for the purpose of

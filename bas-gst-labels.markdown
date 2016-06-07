@@ -3,7 +3,7 @@ layout: bas
 title:  "Completing the GST labels on your BAS"
 ---
 
-<h1>Completing the GST labels on your BAS</h1>
+
 <p>You must complete the goods and services (GST) tax section of your business activity statement (BAS) if your business is registered for GST.</p>
 <table>
 <caption>The GST labels you complete depend on the GST reporting option you have chosen:</caption>
