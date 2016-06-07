@@ -1,6 +1,7 @@
 ---
 layout: bas
 title:  "BAS agent lodgment program 2015–16"
+tag:    "Low"
 ---
 
 <h2>About the BAS agent lodgment program 2015–16</h2>

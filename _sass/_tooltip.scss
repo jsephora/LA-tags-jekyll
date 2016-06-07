@@ -1,0 +1,40 @@
+.page-info .tooltip {
+    width: 300px;
+    
+    
+    h3 {
+        font-size: 16px;
+        color: #ffffff;
+        font-style: italic;
+        margin: 0 0 10px 0;
+        padding: 0 0 12px 0;
+        border-bottom: 1px solid;
+        font-weight: normal;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        letter-spacing: 0.05em;
+        text-align: left;
+    }
+    p {
+        font-family: "Swiss721BT-Light", Arial, Helvetica, sans-serif; 
+        float: none;
+        font-size: 15px;
+        color: #ffffff;
+        text-align: left;
+        margin: 0 0 15px 0;
+    }
+    strong {
+         letter-spacing: 0.05em;  
+    }
+    
+    & > .tooltip-inner {
+        max-width: 100%;
+        padding: 30px 40px;
+    }
+    &.bottom .tooltip-arrow {
+        border-bottom-color: #254351;
+    }
+   
+     @media(min-width: 768px){
+            width: 350px;
+        }
+}

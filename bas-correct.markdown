@@ -1,6 +1,7 @@
 ---
 layout: bas
 title:  "Correcting GST Errors"
+tag:    "Low"
 ---
 
 <p>To correct a GST error, complete the appropriate boxes on the GST section of your activity statement.</p>

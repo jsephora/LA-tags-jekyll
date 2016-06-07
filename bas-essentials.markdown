@@ -1,6 +1,7 @@
 ---
 layout: bas
 title:  "Business activity statement essentials"
+tag:    "Low"
 ---
 
 <p>The business activity statement (BAS) is a tax reporting requirement for businesses issued by us on either a monthly or quarterly basis. It’s used for reporting and paying goods and services tax (GST), pay as you go (PAYG) instalments, PAYG withholding tax and other tax obligations.</p>

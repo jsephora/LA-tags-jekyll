@@ -1,6 +1,7 @@
 ---
 layout: bas
 title:  "Preparing your Business activity statement (BAS)"
+tag:    "Low"
 ---
 
 <p>Find out how to complete the business activity statement (BAS) labels for:</p>

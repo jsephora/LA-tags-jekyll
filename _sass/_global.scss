@@ -6,7 +6,8 @@ html, body {
     color: #666;
 }
 .container {
-    max-width: 970px !important; 
+    width: 100%;
+    max-width: 1050px !important; 
     
     a {
         color: #4365d9; 
@@ -43,7 +44,11 @@ header {
     display: none;
     
     @media (min-width: 800px) {
-        display: block;   
+        display: block; 
+     
+        img {
+            width: 250px;   
+        }
     }
 }
 .main-content {
@@ -72,6 +77,20 @@ body h1 {
     margin-bottom: 0;
     color: #000000;
     margin-top: 67px;
+}
+body ul {
+    padding-left: 20px;   
+}
+body li {
+    font-family: "Swiss721BT-Light", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: url(../images/arrow_left_whiteback.png) no-repeat;
+    background-size: 10px;
+    background-position-x: 0;
+    background-position-y: 5px;
+    list-style-type: none;
+    padding-left: 16px;
+    margin-bottom: 5px;
 }
 h3 {
     margin-top: 2em;

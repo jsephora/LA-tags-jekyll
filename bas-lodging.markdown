@@ -1,6 +1,7 @@
 ---
 layout: bas
 title:  "Lodging and paying your BAS"
+tag:    "Low"
 ---
 
 <p>Follow the links below to find out how to complete, lodge and pay your business activity statement (BAS).</p>

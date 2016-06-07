@@ -1,6 +1,7 @@
 ---
 layout: bas
 title:  "BAS P - Annual GST return"
+tag:    "Low"
 ---
 
 <p>You can download a sample of this form in Portable Document

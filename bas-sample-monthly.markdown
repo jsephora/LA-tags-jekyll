@@ -1,6 +1,7 @@
 ---
 layout: bas
 title:  "BAS G - Monthly BAS"
+tag:    "Low"
 ---
 
 <p>You can download a sample of this form in Portable Document Format (PDF) – download BAS G – Monthly BAS (NAT 4235). Sample forms are provided for the purpose of information only and can not be lodged.</p>

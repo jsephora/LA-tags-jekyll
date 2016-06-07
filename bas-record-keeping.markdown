@@ -1,6 +1,7 @@
 ---
 layout: bas
 title:  "Record keeping"
+tag:    "Low"
 ---
 
 <p>You must keep a copy of your business activity statement (BAS), along with the records you used to prepare it, until the latest of:</p>

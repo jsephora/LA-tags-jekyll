@@ -10,7 +10,7 @@ $(document).ready(function(){
         
     
     //Initialise bootstrap popover tooltip
-     $('[data-toggle="popover"]').popover({
+     $('[data-toggle="tooltip"]').tooltip({
         placement: 'bottom',
         html: true
      });

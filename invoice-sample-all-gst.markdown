@@ -1,6 +1,7 @@
 ---
 layout: invoice
 title:  "Goods or services that all include GST"
+tag:    "Low"
 ---
 
 <h2>Sample Invoice</h2>

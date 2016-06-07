@@ -1,6 +1,7 @@
 ---
 layout: invoice
 title:  "Issuing tax invoices"
+tag:    "Low"
 ---
 
 <p>When you make a taxable sale of more than $82.50 (including GST), your GST-registered customers need a tax invoice from you to be able to claim a credit for the GST in the purchase price.</p>

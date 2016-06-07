@@ -1,6 +1,7 @@
 ---
 layout: legal
 title:  "Goods or services that do not include GST"
+tag:    "High"
 ---
 
 <h2>GSTR 2013/1</h2>

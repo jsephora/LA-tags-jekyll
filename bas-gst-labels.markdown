@@ -1,6 +1,7 @@
 ---
 layout: bas
 title:  "Completing the GST labels on your BAS"
+tag:    "Low"
 ---
 
 
