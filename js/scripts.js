@@ -16,5 +16,27 @@ $(document).ready(function(){
      });
     
 
+    //Open/Close tag menu drawer
+    $('#drawer-toggle').on('click', function(){
+        var drawerPosition = $('#drawer-menu').css('right');
+        console.log(drawerPosition);
+        
+        if (drawerPosition == '-9999px') {   
+            $('#drawer-menu').animate({
+                right: "+=9999"
+            }, 300);
+        } else if (drawerPosition == '0px') {
+           $('#drawer-menu').animate({
+            right: "-=9999"
+        });    
+        }
+    });
+    
+    $('#drawer-menu .close').on('click', function(){
+       $('#drawer-menu').animate({
+            right: "-=9999"
+        });
+    });
+    
 });
 
