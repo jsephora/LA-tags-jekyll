@@ -47,9 +47,17 @@ $(document).ready(function(){
     //Toggle drawer dropdown menus
     $('.dropdown-toggle').on('click', function(){
         if( $(this).next('.dropdown-content').hasClass('on') ) {
+            //Close any open menus
+            $('.dropdown-content').removeClass('on');
+            $('.dropdown-toggle').removeClass('open');
+            //Open the required menu
             $(this).next('.dropdown-content').removeClass('on');
             $(this).removeClass('open');
         } else {
+            //Close any open menus
+            $('.dropdown-content').removeClass('on');
+            //Open the required menu
+            $('.dropdown-toggle').removeClass('open');
             $(this).next('.dropdown-content').addClass('on');
             $(this).addClass('open');
         }
