@@ -18,13 +18,10 @@ tag:    "Low"
 
 <p><strong>See also:</strong></p>
 <ul class="see-also-links">
-   <li><a href="bas-essentials.html">Business activity statement essentials</a><span class="tag">Low</span></li>
-   <li><a href="bas-preparing.html">Preparing your business activity statement (BAS)</a><span class="tag">Low</span></li>
-   <li><a href="bas-lodging.html">Lodging and paying your BAS</a><span class="tag">Low</span></li>
-   <li><a href="bas-gst-labels.html">Completing the GST labels on your BAS</a><span class="tag">Low</span></li>
-   <li><a href="bas-record-keeping.html">Record Keeping</a><span class="tag">Low</span></li>
-   <li><a href="bas-adjustments.html">Making adjustments on your BAS</a><span class="tag">Low</span></li>
-   <li><a href="bas-correct.html">Correcting GST errors</a><span class="tag">Low</span></li>
+   <li><a href="bas-essentials.html">Business activity statement essentials</a><p>Tax literacy: Low</p></li>
+   <li><a href="bas-preparing.html">Preparing your business activity statement (BAS)</a><p>Tax literacy: Low</p></li>
+   <li><a href="bas-lodging.html">Lodging and paying your BAS</a><p>Tax literacy: Low</p></li>
+   <li><a href="bas-gst-labels.html">Completing the GST labels on your BAS</a><p>Tax literacy: Low</p></li>
    </ul>
 
 <h2>When you need a tax invoice</h2>
