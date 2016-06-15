@@ -22,6 +22,9 @@ $(document).ready(function(){
         
         if ($(this).hasClass('open')){
             $(this).removeClass('open');
+            $('.dropdown-content').removeClass('on');
+            $('.dropdown-toggle').removeClass('open');
+            
             $('#drawer-menu').animate({
             right: "-=9999"
             });
@@ -41,6 +44,8 @@ $(document).ready(function(){
             right: "-=9999"
         });
         $('#drawer-toggle').removeClass('open');
+        $('.dropdown-content').removeClass('on');
+        $('.dropdown-toggle').removeClass('open');
     });
     
     
@@ -56,8 +61,8 @@ $(document).ready(function(){
         } else {
             //Close any open menus
             $('.dropdown-content').removeClass('on');
-            //Open the required menu
             $('.dropdown-toggle').removeClass('open');
+            //Open the required menu
             $(this).next('.dropdown-content').addClass('on');
             $(this).addClass('open');
         }
