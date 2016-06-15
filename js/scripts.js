@@ -16,26 +16,44 @@ $(document).ready(function(){
      });
     
 
-    //Open/Close tag menu drawer
+    //Open & Close tag menu drawer with arrow on page
     $('#drawer-toggle').on('click', function(){
-        var drawerPosition = $('#drawer-menu').css('right');
-        console.log(drawerPosition);
+        //var drawerPosition = $('#drawer-menu').css('right');
         
-        if (drawerPosition == '-9999px') {   
+        if ($(this).hasClass('open')){
+            $(this).removeClass('open');
+            $('#drawer-menu').animate({
+            right: "-=9999"
+            });
+        }
+        else {
+            $(this).addClass('open');
             $('#drawer-menu').animate({
                 right: "+=9999"
-            }, 300);
-        } else if (drawerPosition == '0px') {
-           $('#drawer-menu').animate({
-            right: "-=9999"
-        });    
+            }, 300);                          
         }
+        
     });
     
+    //Close menu drawer with close button inside drawer
     $('#drawer-menu .close').on('click', function(){
-       $('#drawer-menu').animate({
+        $('#drawer-menu').animate({
             right: "-=9999"
         });
+        $('#drawer-toggle').removeClass('open');
+    });
+    
+    
+    //Toggle drawer dropdown menus
+    $('.dropdown-toggle').on('click', function(){
+        if( $(this).next('.dropdown-content').hasClass('on') ) {
+            $(this).next('.dropdown-content').removeClass('on');
+            $(this).removeClass('open');
+        } else {
+            $(this).next('.dropdown-content').addClass('on');
+            $(this).addClass('open');
+        }
+        
     });
     
 });

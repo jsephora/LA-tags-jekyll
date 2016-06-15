@@ -63,6 +63,11 @@
         background: url(../images/arrow_left.png) no-repeat;
         background-size: 24px;
         
+        &.open {
+            background: url(../images/arrow_right.png) no-repeat; 
+            background-size: 24px;
+        }
+        
         @media(min-width: 550px){
             width: 24px;
             height: 24px;

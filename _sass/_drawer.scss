@@ -12,6 +12,11 @@
     height: 100%;
     overflow-y: scroll;
         
+    h3 {
+        display: block;
+        float: left;
+        margin-top: 20px;
+    }
     p {
         width: 100%;
         padding: 0 0 12px 0;
@@ -40,14 +45,37 @@
         float: left;
         font-family: "Swiss721BT-Light", Arial, Helvetica, sans-serif;
         font-weight: normal;
+        border-top: 1px solid;
+        padding: 12px 0 0 0;
+    }
+    .dropdown-toggle {
+        background: url(../images/arrow_down_greyback.png) no-repeat;
+        background-size: 30px;
+        background-position: center right;
+        
+        &.open {
+            background: url(../images/arrow_up_greyback.png) no-repeat;
+            background-size: 30px;
+            background-position: center right;
+        }
+    }
+    .dropdown-content {
+        display: none; 
+        
+        &.on {
+            display: block;
+        }
+        ul {
+            margin-bottom: 30px;   
+        }
     }
     .literacy-links {
         width: 100%;
-        padding: 25px 0 0 0;
+        padding: 0;
         display: block;
         float: left;
-        border-top: 1px solid;
-        margin-bottom: 20px;
+        border-bottom: 1px solid;
+        margin-bottom: 12px;
         
         .tag {
             background: lighten($teal-mid, 3%);
@@ -101,6 +129,6 @@
         width: 450px;
     }
     @media (min-width: 1100px){
-        width: 550px;
+        width: 500px;
     }
 }
