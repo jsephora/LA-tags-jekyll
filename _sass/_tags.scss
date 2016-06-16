@@ -2,10 +2,10 @@
 .page-info {
     margin: 0 0 2em 0;
     padding: 10px 0;
-    height: 70px;
+    height: 90px;
     
-    @media(min-width: 550px) {
-        height: 45px;   
+    @media(min-width: 600px) {
+        height: 60px;   
     }
     
     p {
@@ -15,8 +15,12 @@
         color: $grey-mid;
         border-bottom: none;
         
+        @media (min-width: 600px) {
+            margin: 6px 0 0 0;   
+        }
         @media (min-width: 850px){
             font-size: 16px;
+            
         }
     }
     .tag {
@@ -34,51 +38,44 @@
     .explanation {
         display: inline-block;
         float: left;
-        margin: 0 15px 0 5px;
+        margin: 1px 15px 0 5px;
         padding: 0;
         
         img {
             padding: 0;
             margin: 0 0 0 0;
         }
-    }
-    .drawer-intro {
-        margin: 4px 0 0 0; 
-        clear: left;
-        
         @media(min-width: 550px) {
-            clear: none;
-            margin: 0 0 0 6px; 
-        }
-        @media(min-width: 550px) {
-            margin: 0 0 0 12px; 
+            margin: 6px 15px 0 5px;   
         }
     }
     .drawer-toggle {
-        width: 24px;
-        height: 24px;
-        margin: 4px 0 0 6px;
+        width: auto;
+        margin: 8px 0 0 0;
+        padding: 6px 28px 6px 10px;
         display: block;
-        float:left;
-        background: url(../images/arrow_left.png) no-repeat;
+        clear: left;
+        font-size: 14px;
+        border-radius: 4px;
+        background: rgb(239, 239, 239) url(../images/arrow_left_greyback2.png) no-repeat;
         background-size: 24px;
+        background-position: center right;
         
         &.open {
-            background: url(../images/arrow_right.png) no-repeat; 
+            background: rgb(239, 239, 239) url(../images/arrow_right_greyback2.png) no-repeat; 
             background-size: 24px;
+            background-position: center right;
         }
         
-        @media(min-width: 550px){
-            width: 24px;
-            height: 24px;
-            margin: 0 0 0 10px;
-            background-size: 24px;
+        @media(min-width: 600px){
+            margin: 0 0 0 5px;
+            padding: 8px 30px 8px 10px;
+            clear: none;
+            float: left;
         }
-    }
-    .open {
-        .drawer-toggle {
-            background: url(../images/arrow_right.png) no-repeat;
-            background-size: 24px;
+         @media(min-width: 850px){
+            margin: 0 0 0 10px;
+            font-size: 15px;
         }
     }
 }
