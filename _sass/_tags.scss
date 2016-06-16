@@ -57,12 +57,12 @@
         clear: left;
         font-size: 14px;
         border-radius: 4px;
-        background: rgb(239, 239, 239) url(../images/arrow_left_greyback2.png) no-repeat;
+        background: rgb(230, 230, 230) url(../images/arrow_left_greyback2.png) no-repeat;
         background-size: 24px;
         background-position: center right;
         
         &.open {
-            background: rgb(239, 239, 239) url(../images/arrow_right_greyback2.png) no-repeat; 
+            background: rgb(230, 230, 230) url(../images/arrow_right_greyback2.png) no-repeat; 
             background-size: 24px;
             background-position: center right;
         }
