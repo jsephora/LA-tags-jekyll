@@ -109,3 +109,14 @@ th {
     background-color: #dde1e2;
 }
 
+//Fix Bootstrap callout positioning so it doesn't sit on top of the slideout drawer.
+.alert, .attention, .callout, .danger, .direction, .success {
+    position: static !important; 
+    padding-left: 20px;
+    p, ul {
+        margin-left: 40px
+    }   
+}
+.alert img.icon, .attention img.icon, .callout img.icon, .danger img.icon, .direction img.icon, .success img.icon {
+    position: relative;   
+}
